@@ -5,6 +5,8 @@
 	.inside #footer {
   width: 40%;
 }
+
+
 }
 
 @media screen and (min-width: 600px) {
@@ -33,6 +35,7 @@
   letter-spacing: 1px;
   width: 250px;
 }
+
 }
 
 @media screen and (min-width: 700px) {
@@ -62,4 +65,5 @@ nav h1 a {
   font-size: 18pt;
   font-weight: 600;
 }
+
 }
