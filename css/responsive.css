@@ -1,24 +1,22 @@
 @media screen and (min-width: 500px) {
 	#restaurant-container h1 {
-    font-size: 12pt;
+    	font-size: 12pt;
 	}
 	.inside #footer {
-  width: 40%;
+  		width: 40%;
 }
-
-
 }
 
 @media screen and (min-width: 600px) {
 	#restaurant-container h1 {
-    font-size: 14pt;
+    	font-size: 14pt;
 	}
 	.inside #footer {
-  width: 42%;
+  		width: 42%;
 }
 	nav h1 a {
-  font-size: 16pt;
-  font-weight: 400;
+  		font-size: 16pt;
+  		font-weight: 400;
 }
 	.filter-options h2 {
   		font-size: 1.5rem;
@@ -29,21 +27,20 @@
 		flex-wrap: wrap;
 	}
 	.filter-options select {
-  border: 2px solid #fff;
-  font-size: 14pt;
-  height: 40px;
-  letter-spacing: 1px;
-  width: 250px;
+  		border: 2px solid #fff;
+  		font-size: 14pt;
+  		height: 40px;
+  		letter-spacing: 1px;
+  		width: 250px;
 }
-
 }
 
 @media screen and (min-width: 700px) {
 	.inside #footer {
-  	width: 43%;
+  		width: 43%;
 	}
 	#restaurant-container h1 {
-    font-weight: bolder;
+    	font-weight: bolder;
 	}
 	#restaurants-list li {
 		width: 45%;
@@ -55,15 +52,13 @@
 		flex-wrap: wrap;
 	}
 	.filter-options select {
-  font-size: 15pt;
-  letter-spacing: 2px;
-  width: 300px;
-  margin: 15px;
+  		font-size: 15pt;
+  		letter-spacing: 2px;
+  		width: 300px;
+  		margin: 15px;
 }
-nav h1 a {
-  
-  font-size: 18pt;
-  font-weight: 600;
+	nav h1 a {
+  		font-size: 18pt;
+  		font-weight: 600;
 }
-
 }

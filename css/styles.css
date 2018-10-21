@@ -311,11 +311,9 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
-
 #restaurant-container h1{
   padding-top: 30px;
-  font-size: 90%;
-  
+  font-size: 90%; 
 }
 #restaurant-hours {
   width: 80%; 
