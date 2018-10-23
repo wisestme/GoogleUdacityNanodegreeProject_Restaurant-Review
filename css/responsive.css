@@ -1,5 +1,5 @@
 @media screen and (min-width: 500px) {
-	#restaurant-container h1 {
+	#restaurant-container h2 {
     	font-size: 12pt;
 	}
 	.inside #footer {
@@ -8,7 +8,7 @@
 }
 
 @media screen and (min-width: 600px) {
-	#restaurant-container h1 {
+	#restaurant-container h2 {
     	font-size: 14pt;
 	}
 	.inside #footer {
@@ -39,7 +39,7 @@
 	.inside #footer {
   		width: 43%;
 	}
-	#restaurant-container h1 {
+	#restaurant-container h2 {
     	font-weight: bolder;
 	}
 	#restaurants-list li {
