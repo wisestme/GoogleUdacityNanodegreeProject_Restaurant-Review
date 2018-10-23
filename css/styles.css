@@ -140,20 +140,17 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Listing ====================== */
-#all-restaurants {
-  position: relative;
-  top: 1px;
-}
+
 #restaurants-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
-  align-items: center;
-  width: 100%;
 }
 #restaurants-list li {
   background-color: #598af9;
@@ -161,9 +158,9 @@ nav h1 a {
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 30px 25px;
+  padding: 20px 30px 25px;
   text-align: left;
-  width: 90%;
+  width: 95%;
   max-width:300px;
 }
 #restaurants-list .restaurant-img {
@@ -263,10 +260,14 @@ nav h1 a {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
-  width: 50%;
+  width: 45%;
 }
 #reviews-container {
   padding: 30px 10px 80px;
+}
+#restaurant-container{
+  display: flex;
+  flex-direction: column;
 }
 #reviews-container h2 {
   color: #f58500;
@@ -280,8 +281,12 @@ nav h1 a {
   padding: 0;
 }
 #reviews-list li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20px 0 20px 0;
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -294,6 +299,7 @@ nav h1 a {
   margin: 0 0 10px;
   font-size: 3.5vw;
 }
+
 .reviewer {
   background-color: #000;
   width: 100%;
@@ -307,6 +313,15 @@ nav h1 a {
   color: #fff;
   width: 40%;
   text-align: center;
+  border-radius: 10px;
+}
+.opinion {
+  font-size: 1vw;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 5px;
+  border-radius: 6px;
 }
 #restaurant-hours td {
   color: #666;
@@ -316,8 +331,8 @@ nav h1 a {
   font-size: 90%; 
 }
 #restaurant-hours {
-  width: 80%; 
+  width: 98%; 
 }
 #restaurant-hours td {
-  padding: 4px 0;
+  padding: 4px 2px;
 }

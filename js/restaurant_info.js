@@ -138,19 +138,20 @@ createReviewHTML = (review) => {
   const date = document.createElement('span');
   const space = "&nbsp &nbsp &nbsp"
   date.innerHTML = review.date;
-  date.className = "reviewer";
+  date.className = 'reviewer';
   name.innerHTML = review.name + space;
-  name.className = "reviewer"; //dynamically add class
+  name.className = 'reviewer'; //dynamically add class
   li.appendChild(name);
   name.appendChild(date);
 
   const rating = document.createElement('p');
   rating.innerHTML = `Rating: ${review.rating}`;
-  rating.className = "star"; //dynamically add class
+  rating.className = 'star'; //dynamically add class
   li.appendChild(rating);
 
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;
+  comments.className = 'opinion'
   li.appendChild(comments);
 
   return li;
