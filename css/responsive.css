@@ -5,6 +5,9 @@
 	.inside #footer {
   		width: 40%;
 }
+.opinion {
+	font-size: 12pt;
+}
 }
 
 @media screen and (min-width: 600px) {
@@ -60,6 +63,9 @@
 	nav h1 a {
   		font-size: 18pt;
   		font-weight: 600;
+}
+.opinion {
+	font-size: 14pt;
 }
 }
 

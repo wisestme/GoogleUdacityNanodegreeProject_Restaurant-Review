@@ -295,12 +295,14 @@ nav h1 a {
   position: relative;
   width: 90%;
 }
-#reviews-list li p {
-  margin: 0 0 10px;
-  font-size: 3.5vw;
+#reviews-list li {
+  margin: 0 0 3px;
+  font-size: 3vw;
 }
 
 .reviewer {
+  margin: 0 0 4px;
+  font-size: 3vw;
   background-color: #000;
   width: 100%;
   color: #fff;
@@ -308,7 +310,8 @@ nav h1 a {
   text-align: center;
 }
 .star {
-  font-size: 3.5vw;
+  margin: 0 0 4px;
+  font-size: 3vw;
   background-color: #000;
   color: #fff;
   width: 40%;
@@ -316,7 +319,8 @@ nav h1 a {
   border-radius: 10px;
 }
 .opinion {
-  font-size: 1vw;
+  margin: 0 0 4px;
+  font-size: 3.5vw;
   background-color: #000;
   color: #fff;
   width: 100%;
