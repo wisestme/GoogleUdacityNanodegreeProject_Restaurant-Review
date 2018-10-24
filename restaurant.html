@@ -18,15 +18,15 @@
 
 <body class="inside">
   <!-- Beginning header -->
-  <header>
+  <header role="banner">
     <!-- Beginning nav -->
-    <nav>
+    <nav role="navigation">
       <!-- option to skip contents -->
-      <a href="#restaurant-cuisine" class="skip-link" tabindex="0">Skip to main info</a>
-      <h1 aria-label="Home"><a href="/">Restaurant Reviews</a></h1>
+      <a href="#restaurant-cuisine" class="skip-link">Skip to main info</a>
+      <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
+    <ul aria-label="breadcrumb" role="directory" id="breadcrumb" >
       <li><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -38,7 +38,7 @@
   <main id="maincontent">
     <!-- Beginning map -->
     <section id="map-container">
-      <div id="map" tabindex="-1"></div>
+      <div role="application" id="map" tabindex="-1" aria-label="map"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
@@ -59,7 +59,7 @@
   <!-- End main -->
 
   <!-- Beginning footer -->
-  <footer id="footer">
+  <footer role="contentinfo" id="footer">
     Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
   <!-- End footer -->

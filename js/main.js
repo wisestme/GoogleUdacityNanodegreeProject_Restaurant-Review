@@ -186,7 +186,7 @@ createRestaurantHTML = (restaurant) => {
   li.append(more)
 
   // dynamically add alt attribute to images
-  image.alt = name.innerHTML + ' logo';
+  image.alt = `This is an image of the ${name.innerHTML} restaurant`;
 
   return li
 }
