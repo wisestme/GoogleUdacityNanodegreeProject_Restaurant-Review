@@ -54,6 +54,17 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
 	console.log('Service Worker: Fetching');
 	e.respondWith(
-		fetch(e.request).catch(() => caches.match(e.request))
-		)
-})
+		fetch(e.request)
+			.then(res => {
+				//create response copy
+				const responseCopy = response.copy();
+				// open cache
+				.open(cacheName)
+				.then(cache => {
+					// respond to cache
+					cache.put(e.request, responseCopy);
+				});
+				return response;
+			}).catch(err => caches.match(e.request).then(response => response))
+		);
+});
