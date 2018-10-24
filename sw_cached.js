@@ -1,8 +1,8 @@
 const cacheName = 'v1';
 
 const cacheAssets = [
-'index.html',
-'restaurant.html',
+'/index.html',
+'/restaurant.html',
 '/css/styles.css',
 '/css/responsive.css',
 '/js/main.js',
@@ -54,6 +54,6 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
 	console.log('Service Worker: Fetching');
 	e.respondWith(
-		fetch(e.request).catch(() => catches.match(e.request))
+		fetch(e.request).catch(() => caches.match(e.request))
 		)
 })
